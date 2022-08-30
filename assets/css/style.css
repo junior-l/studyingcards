@@ -1,2 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size:34px;
+  font-family: 'Playfair', sans-serif;
+}
+h4 {
+  font-size: 21px;
+  font-family: 'Poppins', sans-serif;
+  font-weight:normal;
+}
+h1,h4{
+  line-height: 2px;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight:400;
+}
+a{
+  text-decoration: none;
+
+}
+
+.init__info {
+  margin: 3rem 5rem;
+}
+.container{
+  border: 1px solid black;
+  margin: 3rem 5rem;
+}
+.cardOne{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 3rem;
+}
+.model{
+  border-right: 1px solid black;
+  padding-right: 2rem
+}
+.model__title{
+  line-height: 2px;
+}
+.model__link, .model__video{
+  background-color:#FF0000;
+  border-radius: 5px;
+  color: #f2f2f2;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  padding: 4px;
+}
+.model__card--gif{
+  margin: 2rem 0;
+  padding: 0;
+}
