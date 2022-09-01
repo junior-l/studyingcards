@@ -38,10 +38,9 @@ a{
   margin: 3rem 5rem;
 }
 .cardOne{
-  align-items: center;
   display: flex;
-  justify-content: space-between;
-  margin: 3rem 3rem;
+  justify-content:space-between;
+  margin: 2rem 1rem;
 }
 .model{
   border-right: 1px solid black;
@@ -59,19 +58,9 @@ a{
   padding: 4px;
 }
 .model__card--gif{
-  margin: 2rem 0;
+  margin-top: 2.5rem;
   padding: 0;
 }
-
-.my__model{
-  background-color: #282828;
-  width: 40%;  
-  display: flex;
-  justify-content: center;
-  
-}
-.my__model--title{
-  color:white;
-  text-align: right;
-  align-items: start;
+.model__gif{
+  margin: 0;
 }
