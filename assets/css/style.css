@@ -34,7 +34,7 @@ a{
   margin: 3rem 5rem;
 }
 .container{
-  border: 1px solid black;
+  border: 1px solid rgb(93, 49, 250);
   margin: 3rem 5rem;
 }
 .cardOne{
@@ -43,7 +43,6 @@ a{
   margin: 2rem 1rem;
 }
 .model{
-  border-right: 1px solid black;
   padding-right: 2rem
 }
 .model__title{

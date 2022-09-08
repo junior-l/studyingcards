@@ -1,15 +1,28 @@
 .my__model{
   width: 100%;
-  height: 400px;
   background-color:#282828;
+  border-radius:20px;
+  padding: 5px;
 }
-.my__model h2{
+.my__model--title{
   color: #f2f2f2;
-  margin-left: 1rem;
+  margin: auto 1rem;
 }
 .my__model--container{
   display: flex;
   align-items: center;
   padding: 60px; 
   overflow: hidden;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  padding: 30px;
+  font-size: 10px; 
+  overflow: hidden;
+  position: relative;
 }
